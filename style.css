@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+.menu {
+    display: flex;
+    justify-content:flex-end;
+    background-color: cadetblue;
+    height: 50%;
+    padding-right: 10%;
+  
+    ul{
+    width: 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+}
+
+.principal_img{
+    img{
+        width: 100%;
+        height: 30rem;
+    }
+}
+.services{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10%;
+    text-align: center;
+ }
+ 
+ .containers{
+     display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10%;
+    text-align: center;
+ }
+ .contenedor{
+     text-align: center;
+     background-color: #a04343;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     width: 400px;
+    
+ }
+ .contenedor img{
+    height: 150px;
+    width: 200px;
+ }
+ .contenedor, h1{
+    font-style: bold;
+ }
+ 
+ .tarjeta{
+     height: 200px;
+     width: 300px;
+ }
+.videos h1{
+    text-align: center;
+}
+ .videos_elements{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+ }
+
+ footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
